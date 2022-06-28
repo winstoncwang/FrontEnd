@@ -1,6 +1,6 @@
 
 window.onload = (event) => {
-  fetch('http://localhost:8080/posts', {
+  fetch('https://rocky-forest-99036.herokuapp.com/posts', {
     method: 'GET',
     credentials: "include",
     headers: {
